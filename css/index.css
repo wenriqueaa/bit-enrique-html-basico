@@ -27,16 +27,19 @@ a {
 }
 
 header {
-    background-color: aquamarine;
+    background-color: aqua;
     text-decoration: none;
     display: flex;
     flex-direction: row;
     align-items: center;
     /* justify-content: space-between; */
     height: 5em;
+    position: sticky;
+    top: 0px;
 }
 
 .header__img {
+    background-color: aqua;
     width: 20%;
 }
 
@@ -46,11 +49,13 @@ header {
 }
 
 .header__menu {
+    background-color: aqua;
     width: 60%;
     margin-right: 10rem;
 }
 
 .header--div__ul {
+    background-color: aqua;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -58,12 +63,21 @@ header {
     list-style: none;
     text-align: center ;
 }
+.header--div__ul li {
+    background-color: aqua;
+}
+
+.header--div__ul li a {
+    background-color: aqua;
+}
 
 .contact__form {
     border: 2px solid blue;
-    width: 60%;
+    width: 25rem;
     margin-left: 3rem;
-    padding-left: 15px;
+    padding: 5px 5px;
+    border-radius: 1rem;
+    margin: 1rem;
 }
 
 button {
@@ -121,5 +135,37 @@ footer div ul li {
     justify-content: space-between; 
     text-decoration: none;
     list-style: none;
+    text-align: center ;
+}
+
+main {
+    display: flexbox;
+}
+
+.main--section {
+    /* display:block; */
+    margin-left: 3rem;
+    border-bottom: 3px solid blue;
+    margin-bottom: 2rem;
+}
+
+.main--section__services {
+    margin-left: 3rem;
+    border-bottom: 1px double rgb(98, 0, 255) ;
+    margin-bottom: 1rem;
+
+}
+
+.section--contact__info {
+    display: flex;
+    flex-direction: row;
+    text-align: center ;
+    /* justify-content: space-between; */
+    /* text-decoration: none;
+    list-style: none;
+    text-align: center ;     */
+}
+.section--contact__info div {
+    padding: 2rem;
     text-align: center ;
 }
