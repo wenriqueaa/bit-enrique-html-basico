@@ -53,7 +53,72 @@ header {
 .header--div__ul {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;  */
+    justify-content: space-between;
+    text-decoration: none;
+    list-style: none;
+    text-align: center ;
+}
+
+.contact__form {
+    border: 2px solid blue;
+    width: 60%;
+    margin-left: 3rem;
+    padding-left: 15px;
+}
+
+button {
+    border: none;
+    background: aqua;
+    color: blue;
+    padding: 16px;
+    margin-left: 50px;
+    border-radius: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+button:hover {
+    background: blue;
+    color: yellow;
+    padding: 25px;
+}
+
+button:active {
+    background: black;
+    color: white;
+}
+
+input:focus {
+    border: 2px solid blue;
+    box-shadow: 4px -4px black;
+}
+
+footer {
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* justify-content: space-between; */
+    height: 5em;
+}
+
+.footer__img {
+    width: 3rem;
+}
+
+footer div {
+    margin-left: 1em;
+}
+
+footer div ul li {
+    margin-left: 1em;
+}
+
+
+.footer--div__ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
     text-decoration: none;
     list-style: none;
     text-align: center ;
